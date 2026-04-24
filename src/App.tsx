@@ -1,9 +1,13 @@
-import CharacterCount from './components/CharacterCounter/CharacterCounter'
+import CharacterCounter from './components/CharacterCounter/CharacterCounter'
 import './App.css'
 
 function App() {
 return (
-  <CharacterCount />
+  <CharacterCounter 
+  minWords = {25}
+  maxWords = {202}
+  targetReadingTime = {2}
+  />
   )
 }
 
